@@ -1,16 +1,17 @@
 
 h1 { /*exemplo de box model CSS*/
-    /*
+    
     margin: 45px 40px 10px 50px;
     border-top: 5px solid #000;
     border-right: 10px solid #000;
     border-bottom: 8px solid #ccc;
     border-left: 20px solid #ccc;
     padding: 15px 30px 10px 40px;
-    */
+    
+   
 }
 
-h1 { /*Declara de for individual o estilo a propriedade "margin" */
+h1 { /*Declara de forma individual o estilo a propriedade "margin" */
     /*
     margin-top: 45px;
     margin-right: 40px;
@@ -31,3 +32,11 @@ h1 { /*Declara de for abrevida em sentido horario o estilo a propriedade "margin
 --tres valores: O Primeiro é valido para (top) o Segundo para (right e left) o Terceiro para (bottom);
 --quatro valores: na sequencia (top, right, bottom e left);
 */
+
+h1 { /* Declara de forma indivisual o estilo para propriedade "padding" */
+    /* padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px; */
+}
+
