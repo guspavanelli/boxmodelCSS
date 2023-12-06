@@ -1,0 +1,33 @@
+
+h1 { /*exemplo de box model CSS*/
+    /*
+    margin: 45px 40px 10px 50px;
+    border-top: 5px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 8px solid #ccc;
+    border-left: 20px solid #ccc;
+    padding: 15px 30px 10px 40px;
+    */
+}
+
+h1 { /*Declara de for individual o estilo a propriedade "margin" */
+    /*
+    margin-top: 45px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    */
+}
+
+h1 { /*Declara de for abrevida em sentido horario o estilo a propriedade "margin"*/
+    /*
+    margin: 45px 40px 10px 50px;
+    */
+}
+
+/*
+--um valor: é definido para os 4 lados;
+--dois valores: é defini para 2 lados primeiro (top e bottom) segundo valor para (right e letf);
+--tres valores: O Primeiro é valido para (top) o Segundo para (right e left) o Terceiro para (bottom);
+--quatro valores: na sequencia (top, right, bottom e left);
+*/
