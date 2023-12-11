@@ -9,7 +9,7 @@ h1 { /*exemplo de box model CSS*/
     padding: 15px 30px 10px 40px; */
 }
 
-MARGIN
+/* MARGIN */
 
 h1 { /*Declara de forma individual o estilo a propriedade "margin" */
     /*
@@ -33,7 +33,7 @@ h1 { /*Declara de for abrevida em sentido horario o estilo a propriedade "margin
 --quatro valores: na sequencia (top, right, bottom e left);
 */
 
-PADDING
+/* PADDING */
 
 h1 { /* Declara de forma indivisual o estilo para propriedade "padding" */
     /* padding-top: 15px;
@@ -42,7 +42,7 @@ h1 { /* Declara de forma indivisual o estilo para propriedade "padding" */
     padding-left: 40px; */
 }
 
-BORDER
+/* BORDER */
 
 h1 { /*Declara de for abrevida em sentido horario o estilo a propriedade "padding"*/
     /* padding: 15px 30px 10px 40px; */
@@ -59,9 +59,35 @@ h1 { /*Declara de for abrevida em sentido horario o estilo a propriedade "paddin
     /* border-width: 5px 10px 8px 20px; */
 }
 
-BORDER-STYLE
+/* BORDER-STYLE */
 
-h1 {
-    
+h1 { /*Declara o estilo da borda de forma individual */
+    /* border-top-style: solid;
+    border-right-style: dashed;
+    border-bottom-style: dotted;   
+    border-left-style: ridge; */
 }
 
+h1 { /*Declara o estilo da borda de forma abreviada */
+    /* border-style: solid dashed dotted ridge; */
+}
+
+/* none: ausencia de borda, Espessura/cor se declaradas serão ignoradas valor da borda será 0 (exceto com imagens)
+
+hidden: mesmo que "none", porém com comportamento diferente para bordas de tabelas sobrepostas.
+
+dotted: Borda pontilhada
+
+dashed: Borda tracejada
+
+solid: Borda sólida continua
+
+double: Borda de linha dupla (soma da espessura de cada linha com a do espaço é igual a esperrura total declarada para porda "border-width")
+
+groove: Borda entalhada
+
+ridge: Borda em ressalto
+
+inset: Borda em baixo-relevo
+
+outset: Borda em alto-relevo */
